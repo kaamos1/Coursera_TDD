@@ -1,0 +1,8 @@
+language: python
+
+install:
+  - pip install pipenv
+  - pipenv install
+
+script:
+  - python3 refactoring/test_compute_stats.py
