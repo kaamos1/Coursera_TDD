@@ -6,9 +6,12 @@ name = "pypi"
 [packages]
 pylint = "*"
 numpy = "*"
+pep8 = "*"
+autopep8 = "*"
 
 [dev-packages]
 pycodestyle = "*"
+rope = "*"
 
 [requires]
 python_version = "3.6"

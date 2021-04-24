@@ -6,3 +6,4 @@ install:
 
 script:
   - python3 refactoring/test_compute_stats.py
+  - python3 capstone_project/tests/test_random_person_generator.py
